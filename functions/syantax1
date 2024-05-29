@@ -1,0 +1,13 @@
+public class fun1 {
+    public static int printhelloworld(){
+        System.out.println("hello Yash1");
+        System.out.println("hello Yash2");
+        System.out.println("hello Yash3");
+        return 1;
+    }
+
+
+    public static void main(String[] args) {
+        printhelloworld();
+    }
+}
