@@ -1,0 +1,23 @@
+public class fun5 {
+    public static int factorial(int n){
+        int f = 1;
+
+        for(int i = 1; i<=n; i++){
+            f = f*i;
+        }
+        return f;
+    }
+
+    public static int binocoeff(int n, int r){
+        int n_factorial = factorial(n);
+        int r_factorial = factorial(r);
+        int nmr_factorial = factorial(n-r);
+
+        int binocoeff = n_factorial/(r_factorial*nmr_factorial);
+        return binocoeff;
+    }
+
+    public static void main(String[] args){
+    System.out.println(binocoeff(10,2));
+}
+}
