@@ -1,0 +1,16 @@
+public class funt6 {
+    public static int sum(int a,int b){
+        int sum1 = a + b;
+        return sum1;
+    }
+
+    public static int sum(int a,int b,int c){
+        int sum1 = a + b + c;
+        return sum1;
+    }
+
+    public static void main(String[] args) {
+        System.out.println(sum(5,3));
+        System.out.println(sum(5,2,1));
+    }
+}
