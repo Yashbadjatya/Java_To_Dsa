@@ -1,0 +1,27 @@
+public class linearserch {
+
+    public static int serch(String [] menucard, String key){
+        for(int i=0; i<menucard.length; i++){
+        if(menucard[i] .equals(key)){
+            return i;
+        }
+    }
+    return -1;    
+    }
+
+public static void main(String[] args) {
+    String menucard []= {"allo ke parathe", "pepsi", "cold coffee" ,"momos" ,"pani puri"};
+    String key = "momos"; 
+
+    int indexs = serch(menucard, key);
+    if (indexs == -1){
+        System.out.println("Not in Menu");
+    } else{
+        System.out.println("this is in index :" + indexs);
+    }
+
+
+}
+}
+
+
