@@ -1,0 +1,38 @@
+public class subarray {
+
+    public static void Printsubarray(int numbers[]){
+        int tc = 0;
+        int max_sum = Integer.MIN_VALUE;
+        int min_sum = Integer.MAX_VALUE;
+        for (int i=0; i<numbers.length; i++){
+            int start = i;
+            for(int j=i; j<numbers.length; j++){
+                int end = j;
+                int sumofsubarray = 0;
+                for(int k=start; k<=end; k++){
+                    System.out.print(numbers[k] +" ");
+                    sumofsubarray = sumofsubarray+numbers[k];
+                }
+                System.out.println();
+                System.out.println(" -sum "+ sumofsubarray);
+                if (sumofsubarray > max_sum){
+                    max_sum = sumofsubarray;
+                }
+                if (sumofsubarray < min_sum){
+                    min_sum = sumofsubarray;
+                }
+                tc++;
+            }
+            System.out.println();
+        }
+        System.out.println("total number of subarray is : " + tc);
+        System.out.println("max sum of subarray is : " + max_sum);
+        System.out.println("min sum of subarray is : " + min_sum);
+    }
+    
+    public static void main(String[] args) {
+        int numbers [] = {2,4,6,8,10};
+        Printsubarray(numbers);
+
+    }
+}
