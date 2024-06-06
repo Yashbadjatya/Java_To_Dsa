@@ -3,7 +3,7 @@ public class subarray {
     public static void Printsubarray(int numbers[]){
         int tc = 0; //counting the subarray
         int max_sum = Integer.MIN_VALUE; //initialize max value
-        int min_sum = Integer.MAX_VALUE;
+        int min_sum = Integer.MAX_VALUE;  //initialize min value
         for (int i=0; i<numbers.length; i++){
             int start = i;
             for(int j=i; j<numbers.length; j++){
