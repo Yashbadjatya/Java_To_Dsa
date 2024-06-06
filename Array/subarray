@@ -1,7 +1,7 @@
 public class subarray {
 
     public static void Printsubarray(int numbers[]){
-        int tc = 0;
+        int tc = 0; //counting the subarray
         int max_sum = Integer.MIN_VALUE;
         int min_sum = Integer.MAX_VALUE;
         for (int i=0; i<numbers.length; i++){
