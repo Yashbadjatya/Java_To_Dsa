@@ -26,8 +26,8 @@ public class subarray {
             System.out.println();
         }
         System.out.println("total number of subarray is : " + tc);
-        System.out.println("max sum of subarray is : " + max_sum);
-        System.out.println("min sum of subarray is : " + min_sum);
+        System.out.println("max sum of subarray is :- " + max_sum);
+        System.out.println("min sum of subarray is :- " + min_sum);
     }
     
     public static void main(String[] args) {
