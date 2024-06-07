@@ -3,7 +3,7 @@ public class Trappedwater {
     public static int trappedwater(int height[]){
         int n = height.length;
 
-        // leftmax boundary array
+        // leftmax boundary array creation
         int leftmax [] = new int [n];
         leftmax[0] = height[0];
         for (int i=1; i<n; i++){
