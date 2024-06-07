@@ -24,7 +24,7 @@ public class Trappedwater {
             //waterlevel
             int waterlevel = Math.min(leftmax[i], rightmax[i]);
 
-            //trappedwater
+            //trappedwater 
             trappedwaterr += waterlevel-height[i];
         }
         return trappedwaterr;
