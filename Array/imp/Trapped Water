@@ -20,7 +20,7 @@ public class Trappedwater {
         //loop
         int trappedwaterr = 0;
         for(int i=0; i<n; i++){
-
+            
             //waterlevel
             int waterlevel = Math.min(leftmax[i], rightmax[i]);
 
