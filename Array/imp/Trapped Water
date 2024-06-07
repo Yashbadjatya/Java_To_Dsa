@@ -10,7 +10,7 @@ public class Trappedwater {
             leftmax[i] = Math.max(height[i], leftmax[i-1]);
         }
 
-        //rightmax boundary array
+        //rightmax boundary array creation
         int rightmax[] = new int [n];
         rightmax[n-1] = height[n-1];
         for(int i=n-2; i>=0; i--){
