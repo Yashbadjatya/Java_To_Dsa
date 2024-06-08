@@ -1,0 +1,34 @@
+public class wwe {
+    public static void main(String[] args) {
+        String roman = "ViM";
+        int result = romanToInt(roman);
+        System.out.println("The integer value of Roman numeral " + roman + " is: " + result);
+    }
+
+    public static int romanToInt(String s) {
+        int[] values = new int[s.length()];
+        
+        for (int i = 0; i < s.length(); i++) {
+            char c = s.charAt(i);
+            switch (c) {
+                case 'I': values[i] = 1; break;
+                case 'V': values[i] = 5; break;
+                case 'X': values[i] = 10; break;
+                case 'L': values[i] = 50; break;
+                case 'C': values[i] = 100; break;
+                case 'D': values[i] = 500; break;
+                case 'M': values[i] = 1000; break;
+            }
+        }
+        
+        int sum = 0;
+        for (int i = 0; i < values.length; i++) {
+            if (i < values.length - 1 && values[i] < values[i + 1]) {
+                sum -= values[i];
+            } else {
+                sum += values[i];
+            }
+        }
+        return sum;
+    }
+}
