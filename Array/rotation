@@ -3,7 +3,7 @@ public class rotation {
     public int search(int[] nums, int target) { 
         //min will have index of minimum element of nums 
         int min = minSearch(nums); 
-        //find in sorted left 
+        //find in sorted left
         if(nums[min] <= target && target <= nums[nums.length-1]){ 
         return search(nums,min,nums.length-1,target); 
         } 
