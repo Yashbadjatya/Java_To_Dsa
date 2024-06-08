@@ -17,7 +17,7 @@ public class rotation {
         int l = left; 
         int r = right; 
         // System.out.println(left+" "+right); 
-        while(l <= r){ 
+        while(l <= r){
         int mid = l + (r - l)/2; 
         if(nums[mid] == target){ 
         return mid; 
