@@ -9,7 +9,7 @@ public class rotation {
         } 
         //find in sorted right 
         else{ 
-        return search(nums,0,min,target); 
+        return search(nums,0,min,target);
         }
         }
         //binary search to find target in left to right boundary 
