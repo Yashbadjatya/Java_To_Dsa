@@ -12,8 +12,7 @@ public static void Printarr(int arr[]){
                 if (arr[MinPos]>arr[j]){
                     MinPos=j;
                 }
-
-            }
+}
             //swap
             int temp = arr[MinPos];
             arr [MinPos] = arr[i];
