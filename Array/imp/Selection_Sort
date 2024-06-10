@@ -20,9 +20,7 @@ public static void Printarr(int arr[]){
             arr[i] = temp;
         }
     }
-
-
-    public static void main(String[] args) {
+public static void main(String[] args) {
         int arr[] = {5,4,1,3,2,7,9};
         Selectiionsort(arr);
         Printarr(arr);
