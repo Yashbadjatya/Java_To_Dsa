@@ -16,7 +16,7 @@ public class matrix {
         }
         return false;
         
-    }
+}
     
     public static void main(String[] args) {
         int matrix [][] = new int[3][3];
