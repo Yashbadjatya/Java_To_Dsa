@@ -8,13 +8,7 @@ public class matrix {
             for (int j=0; j<matrix[0].length; j++){
                 if (matrix[i][j] == key){
                     System.out.print("found at " + i+","+j);
-                    return true;
-                }
-                System.out.println("Not found");
-            }
-            
-        }
-        return false;
+                    return true
         
     }
     
