@@ -11,6 +11,7 @@ public class Spiral {
             for(int j=StartCol; j<=EndCol; j++){
                 System.out.print(matrix[StartRow][j]+" ");
             }
+// For Right
             for(int i=StartRow+1; i<=EndRow; i++){
                 System.out.print(matrix[i][EndCol]+" ");
             }
