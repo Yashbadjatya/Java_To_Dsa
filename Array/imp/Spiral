@@ -22,6 +22,7 @@ public class Spiral {
                 }
                 System.out.print(matrix[EndRow][j]+" ");
             }
+// For Left
             for(int i=EndRow-1; i>=StartRow+1; i--){
                 if( StartCol == EndCol){
                     break;
