@@ -6,7 +6,7 @@ public static int Diagonalsum(int matrix[][]){
             sum+= matrix[i][i];
 
             if(i != matrix.length-1-i)
-            //sd
+        //sd
             sum+= matrix[i][matrix.length-i-1];
         }
         System.out.println(sum);
