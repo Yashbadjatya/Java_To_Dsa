@@ -1,0 +1,23 @@
+
+//import java.util.Scanner;
+
+
+public class strings {
+    public static void main(String[] args) {
+        
+        //Scanner sc = new Scanner(System.in);
+        //String name;
+        //name = sc.nextLine();
+        //System.out.println(name);
+
+        // String Fullname = "Yash Badjatya";
+        // System.out.println(Fullname.length());
+
+        //concetated
+
+        String Firstname = "Yash";
+        String lastname = "Badjatya";
+        String Fullname = Firstname + " "+  lastname;
+        System.out.println(Fullname + " Welcome to java");
+    }
+}
