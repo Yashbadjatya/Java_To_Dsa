@@ -14,7 +14,7 @@ public class strings {
         // String Fullname = "Yash Badjatya";
         // System.out.println(Fullname.length());
 
-        //concetated
+//concetated
 
         String Firstname = "Yash";
         String lastname = "Badjatya";
