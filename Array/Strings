@@ -8,6 +8,7 @@ public class strings {
         //name = sc.nextLine();
         //System.out.println(name);
 
+// new String
         // String Fullname = "Yash Badjatya";
         // System.out.println(Fullname.length());
 
