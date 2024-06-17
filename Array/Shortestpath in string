@@ -19,7 +19,7 @@ public class path {
                 x++;
             }
         }
-
+// sqrt root
         int x2 = x*x;
         int y2 = y*y;
 
