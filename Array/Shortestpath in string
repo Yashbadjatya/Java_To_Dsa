@@ -20,7 +20,7 @@ public class path {
                 x++;
             }
         }
-// sqrt root
+// sqrt root (Displacement)
         int x2 = x*x;
         int y2 = y*y;
 
