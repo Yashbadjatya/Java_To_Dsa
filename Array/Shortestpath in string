@@ -4,7 +4,7 @@ public class path {
         int x=0;
         int y=0;
 
-        for(int i=0; i<path.length(); i++){
+     for(int i=0; i<path.length(); i++){
             char dis = path.charAt(i);
             if(dis == 'S'){
                 y--;
