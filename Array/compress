@@ -1,0 +1,22 @@
+public class compress {
+    public static String compresss(String str){
+        String Newstr = "";
+        for(int i=0; i<str.length(); i++){
+            Integer count = 1;
+            while (i<str.length()-1 && str.charAt(i) == str.charAt(i+1)){
+                count++;
+                i++;
+            }
+
+            Newstr += str.charAt(i);
+            if(count > 1){
+                Newstr += count.toString();
+            }
+        }
+        return Newstr;
+    }
+    public static void main(String[] args) {
+        String str = "aaaabbcccddddff";
+        System.out.println(compresss(str));
+    }
+}
