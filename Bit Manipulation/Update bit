@@ -1,0 +1,11 @@
+    public static int updatebit(int n, int i, int newbit){
+        if (newbit == 0){
+            return clearbit(n, i);
+        }else{
+            return setIthbir(n, i);
+        }
+    }
+    public static void main(String[] args) {
+        System.out.println(updatebit(10, 1, 0));
+}
+}
