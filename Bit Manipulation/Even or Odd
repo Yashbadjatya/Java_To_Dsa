@@ -1,0 +1,16 @@
+public class evenorodd{
+
+    public static void EvenorOdd(int n){
+        int bitmarks = 1;
+        if((n & bitmarks) == 0){
+            System.out.println("Number is Even");
+        } else{
+            System.out.println("Number is Odd");
+        }
+
+    }
+    public static void main(String[] args) {
+        EvenorOdd(3);
+        EvenorOdd(18);
+    }
+}
