@@ -1,0 +1,25 @@
+public class multi_inheritance {
+    public static void main(String[] args) {
+        beer b = new beer();
+        b.eatgrass();
+        b.eatboth();
+    }
+}
+
+
+interface herbivous{
+    void eatgrass();
+}
+
+interface omnivorous{
+    void eatboth();
+}
+
+class beer implements herbivous,omnivorous{
+    public void eatgrass(){
+        System.out.println("it grass");
+    }
+    public void eatboth(){
+        System.out.println("it animals also");
+    }
+}
