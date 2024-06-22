@@ -1,0 +1,32 @@
+public class inheritance {
+    public static void main(String[] args) {
+        fish whale = new fish();
+        shark sharksbaby = new shark();
+        whale.eat();
+        whale.color = "blue";
+        System.out.println(whale.color);
+        sharksbaby.Size = "big";
+        System.out.println(sharksbaby.Size);
+    }
+}
+
+class Animal {
+    String color;
+
+    void eat(){
+        System.out.println("Eats");
+    }
+    void breath(){
+        System.out.println("it can breath");
+    }
+}
+
+class fish extends Animal{
+
+    int fins;
+}
+
+class shark extends fish{
+    String Size;
+}
+
