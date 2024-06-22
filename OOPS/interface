@@ -1,0 +1,18 @@
+public class interfacing{
+    public static void main(String[] args){
+        Queen q = new Queen();
+        q.moves();
+
+    }
+}
+
+
+interface ChessPlayer{
+    void moves();
+}
+
+class Queen implements ChessPlayer {
+    public void moves() {
+        System.out.println("moves in up,down,lest,right,diagonal in all 4 direcction");
+    }
+}
