@@ -41,6 +41,4 @@ class Solution {
  g.printComplex();
  }
  }
- Solution 2: B. Driving electric car
- Thedrive()methodintheCarclassdoesnotoverridetheversionintheAutomobileclass
- since the method is not visible to the Car class
+
