@@ -6,7 +6,6 @@ public class multi_inheritance {
     }
 }
 
-
 interface herbivous{
     void eatgrass();
 }
