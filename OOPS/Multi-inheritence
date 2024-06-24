@@ -12,7 +12,6 @@ interface herbivous{
 interface omnivorous{
     void eatboth();
 }
-
 class beer implements herbivous,omnivorous{
     public void eatgrass(){
         System.out.println("it grass");
