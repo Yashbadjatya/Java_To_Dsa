@@ -5,7 +5,6 @@ public class multi_inheritance {
         b.eatboth();
     }
 }
-
 interface herbivous{
     void eatgrass();
 }
