@@ -4,7 +4,7 @@ public class oops {
         System.out.println(s1.name);
         System.out.println(s1.roll);
     }
-}
+} 
 class Student {
     String name;
     int roll;
