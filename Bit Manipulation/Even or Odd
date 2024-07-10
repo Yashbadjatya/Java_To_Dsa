@@ -7,7 +7,7 @@ public class evenorodd{
         } else{
             System.out.println("Number is Odd");
         }
-  } 
+  }
     public static void main(String[] args) {
         EvenorOdd(3);
         EvenorOdd(18);
