@@ -1,0 +1,27 @@
+public class sec {
+
+    public static String findDay(int month, int day, int year) {
+        if (month < 3) {
+            month += 12;
+            year -= 1;
+        }
+
+        int k = year % 100;
+        int j = year / 100;
+
+        int f = day + (13 * (month + 1)) / 5 + k + (k / 4) + (j / 4) - 2 * j;
+        int dayOfWeek = (f % 7 + 7) % 7; // Ensures non-negative result
+
+        String[] days = { "SATURDAY", "SUNDAY", "MONDAY", "TUESDAY", "WEDNESDAY", "THURSDAY", "FRIDAY" };
+        return days[dayOfWeek];
+    }
+
+    public static void main(String[] args) {
+        java.util.Scanner sc = new java.util.Scanner(System.in);
+        int month = sc.nextInt();
+        int day = sc.nextInt();
+        int year = sc.nextInt();
+        System.out.println(findDay(month, day, year));
+        sc.close();
+    }
+}
