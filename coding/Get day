@@ -1,0 +1,18 @@
+import java.time.LocalDate;
+import java.time.DayOfWeek;
+import java.time.format.TextStyle;
+import java.util.Locale;
+
+public class Main {
+    public static String getDayOfWeek(int year, int month, int day) {
+        LocalDate date = LocalDate.of(year, month, day);
+        DayOfWeek dayOfWeek = date.getDayOfWeek();
+        String dayOfWeekName = dayOfWeek.getDisplayName(TextStyle.FULL, Locale.ENGLISH);
+        return dayOfWeekName.toUpperCase();
+    }
+
+    public static void main(String[] args) {
+        int year = 2002, month = 6, day = 24;
+        System.out.println(getDayOfWeek(year, month, day)); // Output: SUNDAY
+    }
+}
